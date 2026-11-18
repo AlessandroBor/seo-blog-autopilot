@@ -1,0 +1,40 @@
+{
+  "name": "seo-blog-autopilot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated SEO blog engine: keyword queue -> SERP/LSI research -> audited titles -> outline -> article -> images, categories and tip -> Supabase draft (or auto-publish).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "generate": "tsx scripts/generate-from-cli.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "cheerio": "^1.0.0",
+    "lucide": "^0.487.0",
+    "markdownlint": "^0.37.4",
+    "natural": "^8.0.1",
+    "next": "^16.0.10",
+    "openai": "^4.97.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "sharp": "^0.34.1",
+    "slugify": "^1.6.6",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^20.17.41",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "dotenv": "^16.4.7",
+    "tailwindcss": "^4.1.18",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.3"
+  }
+}
